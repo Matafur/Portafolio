@@ -1,0 +1,29 @@
+:root{
+    --bg-header:#0D0D0D;
+}
+.encabezado{
+    background-color: var(--bg-header);
+    display: flex;
+    
+}
+.hijo{
+    flex-grow: 1;
+    text-align: center;
+}
+h1, a{
+    color: whitesmoke;
+}
+
+/* Color Theme Swatches in Hex */
+.Creative-team-projecting-a-website-1-hex { color: #89888C; }
+.Creative-team-projecting-a-website-2-hex { color: #F2DAAC; }
+.Creative-team-projecting-a-website-3-hex { color: #BF4539; }
+.Creative-team-projecting-a-website-4-hex { color: #F2F2F2; }
+.Creative-team-projecting-a-website-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in RGBA */
+.Creative-team-projecting-a-website-1-rgba { color: rgba(136, 136, 140, 1); }
+.Creative-team-projecting-a-website-2-rgba { color: rgba(242, 217, 171, 1); }
+.Creative-team-projecting-a-website-3-rgba { color: rgba(191, 68, 57, 1); }
+.Creative-team-projecting-a-website-4-rgba { color: rgba(242, 242, 242, 1); }
+.Creative-team-projecting-a-website-5-rgba { color: rgba(12, 12, 12, 1); }
