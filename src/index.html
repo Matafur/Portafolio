@@ -1,21 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Portafolio Miguel Tafur    </title>
+    <meta charset="UTF-8" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous"
+    />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+    rel="stylesheet"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
 </head>
+
 <body>
-    <header class="encabezado">
-        <section class="hijo">
-            <h1>Miguel Tafur</h1>
-        </section>
-        <section class="hijo">
-            <a href="https://github.com/Matafur">Git Hub</a>
-        </section>
-    </header>
+<i class="fa fa-arrow-up" aria-hidden="true" onclick = "scrollToTop();"></i>
+<section class="sec1" id="section1">
+    <div class="menuBar">
+        <ul>
+            <li><a href="#section1">Home</a></li>
+            <li><a href="#section2">About</a></li>
+            <li><a href="#section3">Skill</a></li>
+            <li><a href="#section4">contact</a></li>
+        </ul>
+    </div>
+    <div class="navBar">
+        <div class="logo">
+            <h1>Miguel Tafur.</h1>
+        </div>
+        <div class="navBar__menu">
+            <ul>
+            <li>
+                <a href="#section1">Home</a>
+            </li>
+            <li>
+                <a href="#section2">About</a>
+            </li>
+            <li>
+                <a href="#section3">Skill</a>
+            </li>
+            <li>
+                <a href="#section4">Contact</a>
+            </li>
+            </ul>
+        </div>
+        <div class="sec1__menuIcon"></div>
+    </div>
+    <div class="sec1__container">
+        <div class="sec1__content">
+            <div class="sec1__contentDetail">
+                <div class="sec1__contentHider">
+            </div>
+            <div class="sec1__contentHider">
+                <h1>¡Hola soy <span>Miguel Angel</span></h1>
+            </div>
+            <div class="sec1__contentHider">
+                <h1>Desarrollador Junior!</h1>
+            </div>
+        </div>
+        <a href="https://github.com/Matafur">follow Me <i class="fab fa-github"></i></a>
+    </div>
+    <div class="sec1__imgContainer">
+        <div class="sec1__imgBx">
+            <img src="./Perfil.png"style="width:300px"/>  
+            <span class="sec1__design3"></span>
+        </div>
+    </div>
+    </div>
+</section>
+<section class="sec2" id="section2">
+    <div class="sec2__heading">
+        <h2>about me</h2>
+    </div>
+    <div class="sec2__container">
+        <div class="sec2__aboutme1" data-aos="fade-up" data-aos-offset="-90">
+            <div class="sec2__aboutme1Img">
+                <img src="./Perfil-2.png" style="width:200px">
+            </div>
+            <h2>Miguel Tafur</h2>
+            <div class="sec2__aboutme1Social">
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/miguel-tafur"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-google"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/Matafur"><i class="fab fa-github"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="sec2__aboutme2" data-aos="fade-up" data-aos-delay="1000">
+        <p style="color:black">Hola👋, soy Miguel Tafur vivo en Bogot&aacute, tengo 28 a&ntildeos, actualmente soy un estudiante apasionado por el desarrollo de software, empece a estudiar y programar hace un a&ntildeo aproximadamente y desde entonces he mejorado mis habilidades y conocimientos en esta &aacuterea.</p>
+    </div>
+    </div>
+</section>
+<section class="sec3" id="section3">
+    <h1>Skills</h1>
+    <div class="sec3__container">
+        <div class="sec3__box1">
+            <div class="sec3__content1" data-aos="fade-right">
+                <h2 class="rol">Front End</h2>
+                    <ul id="ul-square">
+                        <li style="color:red"><h2 style="color:white;text-align:left">HTML</h2></li>
+                        <li style="color:red"><h2 style="color:white;text-align:left">CSS</h2></li>
+                        <li style="color:red"><h2 style="color:white;text-align:left">JAVASCRIPT</h2></li>
+                        <li style="color:red"><h2 style="color:white;text-align:left">ANGULAR</h2></li>
+                    </ul>
+            </div>  
+        </div>
+        <div class="sec3__box2">
+            <div class="sec3__content1" data-aos="fade-right">
+                <h2 class="rol">Back End</h2>
+                    <ul id="ul-square">
+                        <li style="color:red"><h2 style="color:white;text-align:left">JAVA</h2></li>
+                        <li style="color:red"><h2 style="color:white;text-align:left">SQL</h2></li>
+                        <li style="color:red"><h2 style="color:white;text-align:left">PHP</h2></li>
+                        <li style="color:red"><h2 style="color:white;text-align:left">SPRING</h2></li>
+                    </ul>
+            </div>
+        </div>
+        <div class="sec4__content1" data-aos="fade-right">
+            <p class="rol" style="color:white">Mira! algunos de mis proyectos.</p>
+                <ul id="ul-square">
+                    <li style="color:red"><h2 style="color:white;text-align:left"><a href="https://curriculumigueltafur.netlify.app/" style="color:#cace06ef">Hoja de vida</a></li>
+                    <li style="color:red"><h2 style="color:white;text-align:left"><a href="https://mt-htmlsena.netlify.app/home.html" style="color:#cace06ef">Proyecto Vengadores</a></li>
+                    <li style="color:red"><h2 style="color:white;text-align:left"><a href="https://alphapets-bictia.netlify.app/" style="color:#cace06ef" >AlphaPets</a></li>
+                </ul>    
+        </div>
+    </div>
     
+        <h1 data-aos="fade-right">Certificados</h1>
+        <a style="text-decoration: none;" href="./certificados.html"><button data-aos="fade-right" class="certificados">Clickeame</button></a>
+    
+</section>
+<section class="sec4" id="section4">
+    <div class="sec4__container">
+        <div class="sec4__box1">
+            <div class="sec4__content1" data-aos="fade-right">
+                <p style="color:white">En este punto ya tienes una idea acerca de m&iacute conocimiento y habilidades, en caso de que tengas alg&uacuten feedback, con gusto lo recibire.</p>    
+            </div>
+        <div
+        class="sec4__content2"
+        data-aos="fade-right"
+        data-aos-delay="200"
+        >
+            <div class="sec4__content2Icon">
+                <i class="fas fa-envelope"></i>
+                <h2>migueltafurr@gmail.com</h2>
+            </div>
+        </div>
+        <div
+        class="sec4__content3"
+        data-aos="fade-right"
+        data-aos-delay="500"
+        >
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-google"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/miguel-tafur"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/Matafur"><i class="fab fa-github"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="sec4__box2" data-aos="fade-in" data-aos-delay="500">
+        <h2>Quick links</h2>
+        <div class="sec4__links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skill</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="sec4__box3">
+        <h2>Contact Us</h2>
+        <form>
+            <input
+                data-aos="fade-left"
+                data-aos-delay="500"
+                class="sec4__email"
+                type="email"
+                placeholder="Enter your Email"
+            />
+            <input
+                class="sec4__message"
+                data-aos="fade-left"
+                data-aos-delay="1000"
+                type="text"
+                placeholder="enter the feedback or suggestion"
+            />
+            <button type="submit">send</button>
+        </form>
+    </div>
+    </div>
+</section>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+    integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+    crossorigin="anonymous"
+></script>
+<script>
+    const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
+
+    tl.from(".navBar", { y: "-10rem", duration: 1 });
+    tl.from(".navBar .navBar__menu ul li", {
+    y: "-2rem",
+    opacity: 0,
+    duration: 1,
+    stagger: 0.25,
+    });
+    tl.to(
+    ".sec1__content .sec1__contentDetail h1",
+    { y: "0rem", duration: 1, stagger: 0.25 },
+    "=-1"
+    );
+    tl.from(".sec1__imgBx img", { opacity: 0, x: "50%", duration: 1.5 });
+    tl.from(
+    ".sec1__imgBx .sec1__design1",
+    { opacity: 0, x: "3rem", duration: 1.5 },
+    "=-1"
+    );
+    tl.from(
+    ".sec1__imgBx .sec1__design2",
+    { opacity: 0, x: "-3rem", duration: 1.5 },
+    "=-1"
+    );
+    tl.from(
+    ".sec1__design3",
+    { opacity: 0, x: "-30%", duration: 1.5 },
+    "=-2"
+    );
+    tl.from(".sec1__design4", { opacity: 0, duration: 1.5 }, "=-2");
+    tl.from(".sec1__content a", { opacity: 0, duration: 1.5 }, "=-3");
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+    duration: 1000,
+    offset:0,
+    });
+</script>
+<script>
+    var sec1__menuIcon = document.querySelector(".sec1__menuIcon");
+    var menuBar = document.querySelector(".menuBar");
+    sec1__menuIcon.addEventListener("click", function () {
+    sec1__menuIcon.classList.toggle("active");
+    menuBar.classList.toggle("active");
+    });
+</script>
+<script type = "text/javascript">
+    window.addEventListener('scroll',function(){
+        var scroll = document.querySelector('.fa');
+        scroll.classList.toggle("active",window.scrollY>500)
+    })
+    function scrollToTop(){
+        window.scrollTo({
+            top:0,
+            behavior:'smooth'
+        })
+    }
+</script>
 </body>
 </html>
