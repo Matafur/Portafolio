@@ -437,8 +437,8 @@ html {
     position: relative;
     flex: .5;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-right: 150px;
+
 }
 
 .sec2__aboutme2 p {
